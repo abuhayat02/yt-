@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.11/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="bg-gradient-to-r from-blue-200 to-pink-100 ">
+
+    <!-- header section  -->
+    <header class="container z-40 rounded-b-md  p-2 mx-auto backdrop-blur fixed top-0 left-0 right-0 shadow-2xl">
+        <!-- items  -->
+        <section class="flex items-center justify-between border-b py-4  border-blue-500">
+            <div>
+                <img class="w-28 lg:w-fit" src="./images/Logo.png" alt="">
+            </div>
+            <input type="text" placeholder="Sort" class="outline-none rounded px-2 w-1/3 py-1 md:px-3 md:py-2 " />
+            <button class="py-2  bg-gradient-to-tr from-pink-300 to-blue-300 rounded px-10">
+                Blog
+            </button>
+        </section>
+        <!-- buttons  -->
+        <section class="flex flex-row justify-center items-center mt-4" id="buttons">
+
+        </section>
+    </header>
+
+    <!-- main section  -->
+    <main id="video-container" class="py-48 z-30 relative grid md:grid-cols-3 lg:grid-cols-4 gap-4 container m-auto">
+        
+    </main>
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
